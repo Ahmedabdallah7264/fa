@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <title>Home</title>
+        <style>
+            body{
+                margin: 0;
+                padding: 0
+            }
+            .container{
+                width: 1100px;
+                margin: auto
+            }
+            .Head .container p{
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 0
+            }
+            .Head .container img{
+                width: 600px;
+                height: 135px;
+                float: left
+            }
+            .Head .container input{
+                float: right;
+                background-image: url(images/698627-icon-111-search-512.png);
+                background-size: 40px 40px;
+                background-repeat: no-repeat;
+                height: 40px;
+                width: 250px;
+                background-position: right
+            }
+            .clear{
+                clear: both 
+            }
+            .Head .container .media .img{
+                width: 35px;
+                height: 35px;
+                float: right;
+                margin-right: 10px;
+                margin-bottom: 10px
+            }
+            .navbar{
+                background-color: cornflowerblue;
+                overflow: hidden
+            }
+            .navbar .container ul{
+                margin: 0;
+            }
+            .navbar .container ul li{
+                list-style: none;
+                float: left;
+                font:800 1.5em "N";
+                margin-right: 50px;
+                padding: 10px;
+                color: white
+            }
+            .navbar .container ul .li1 select{
+                background-color: transparent;
+                border-color: transparent;
+                font:800 1em "N";
+                -webkit-appearance: button;
+                color: white
+            }
+            .op,.li1 select{cursor: pointer}
+            option{color: black}
+            .container .image{position: relative}
+            .container .image .child1{
+                position: absolute;
+                width: 250px;
+                height: 300px;
+                background-color: rgba(153, 153, 102,0.5);
+                top: 300px;
+                left: 150px;
+                text-align: center;
+                font: 800 1.5em/300px "";
+            }
+            .container .image .child2{
+                position: absolute;
+                width: 250px;
+                height: 300px;
+                background-color: rgba(153, 153, 102,0.5);
+                top: 300px;
+                right: 150px;
+                text-align: center;
+                font: 800 1.5em/300px ""
+            }
+            hr{margin-top: 180px}
+            .part1{
+                width: 250px;
+                height: 300px;
+                background-color: rgba(153, 153, 102,0.5);
+                top: 300px;
+                right: 150px;
+                text-align: center;
+                font: 800 1.5em/300px "";
+                display: inline-block;
+                margin-left: 80px
+            }
+            .part2{
+                width: 250px;
+                height: 300px;
+                background-color: rgba(153, 153, 102,0.5);
+                top: 300px;
+                right: 150px;
+                text-align: center;
+                font: 800 1.5em/300px "";
+                display: inline-block;
+                margin-left: 80px
+            }
+            .part3{
+                width: 250px;
+                height: 300px;
+                background-color: rgba(153, 153, 102,0.5);
+                top: 300px;
+                right: 150px;
+                text-align: center;
+                font: 800 1.5em/300px "";
+                display: inline-block;
+                margin-left: 80px
+            }
+            .footer{
+                background-color: cornflowerblue;
+                height: 350px;
+                margin-top: 50px
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="Head">
+            <div class="container">
+                
+                <p id="demo"></p> 
+                <h1>Master and Ph.D<h1>
+                <img src="images/smec-logo.png" class="right">              
+                <input type="search" class="left">
+                <div class="clear"></div>
+                <div class="media">
+                    <img src="images/facebook-icon.png" class="img">
+                    <img src="images/Twitter-Icon.png" class="img">
+                    <img src="images/youtube_icon-1.jpg" class="img">
+                    <img src="images/download.png" class="img">
+                </div>
+                <div class="clear"></div>
+                
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <li class="li1">
+                        <select>
+                            <option class="op">Courses</option>
+                            <a href="#"><option>CS</option></a>
+                            <a href="#"><option>IS</option></a>
+                            <a href="#"><option>SE</option></a>
+                            <a href="#"><option>MG</option></a>
+                        </select>
+                    </li>
+                    <a href="#"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                            
+<div>
+   <h1> MSc Degree Qualifications<h1>
+</div>
+
+<div>
+   <p>Applicants should have a Bachelor''s degree in a relevant area from an accredited institution with a minimum grade of "Good".
+Applicant may be accepted if (s)he holds a post-Bachelor''s Diploma in a relevant area with a minimum GPA of 3.00/4.00 (or Very Good).</p>
+</div>
+
+<img src="images/mas.jpg" width="150" height="100">
+
+<div>
+   <h1> Doctoral Degree Qualifications<h1>
+</div>
+
+<div>
+   <p>Applicants should have MSc degree in the field of specification, either from the academy or from any accredited university.
+The Graduate Studies at each College and Institute in the Academy identifies the applicants who are eligible for enrollment into the program.  The academic department then interviews the applicants individually to those who will be recommended for admission.
+
+Applications of newly admitted applicants are valid for two semesters.  If an admitted applicant does not enroll by the second semester, (s)he must reapply for admission. </p>
+</div>
+
+<img src="images/md.jpg" width="100" height="150">
+
+
+<div>
+  <p><a href="file:///C:/Users/Ahmed/Desktop/project/project/New%20folder/New%20Text%20Document.HTML">
+Submit an application for registration at the university</a></p>
+</div>
+
+            </div>
+        </div>
+        <hr>
+        
+        <div class="container">
+           
+                
+            </div>
+            
+        </div>
+        <div class="footer">
+            
+        </div>
+        <script>
+            var d = new Date();
+            var datestring = d.getDate()  + "-" + (d.getMonth()+1) + "-" + d.getFullYear() + " " +
+                d.getHours() + ":" + d.getMinutes();
+            document.getElementById("demo").innerHTML = datestring;
+        </script>
+    </body>
+</html>
